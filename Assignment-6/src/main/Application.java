@@ -11,7 +11,7 @@ import sales.Sales;
 public class Application {
 
 	public static void main(String[] args) throws IOException {
-		// TODO Auto-generated method stub
+		
 		List<Sales> lModel3 = new ArrayList<Sales>();
 		List<Sales> lModelS = new ArrayList<Sales>();
 		List<Sales> lModelX = new ArrayList<Sales>();
