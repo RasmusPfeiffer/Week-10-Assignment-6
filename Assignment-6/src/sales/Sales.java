@@ -27,7 +27,7 @@ public class Sales {
 		String sDate = tTime.format(oFormatter);
 		return sDate;
 	}
-	// Modified getYear getter Method to return only the year
+	// Modified getYear getter Method to return the year as an Integer
 	public Integer getYear() {
 		DateTimeFormatter oFormatter = DateTimeFormatter.ofPattern("yyyy", Locale.ENGLISH);
 		String sDate = tTime.format(oFormatter);
